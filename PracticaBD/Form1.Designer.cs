@@ -106,13 +106,13 @@
             this.Mostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Mostrar.Location = new System.Drawing.Point(294, 69);
             this.Mostrar.Name = "Mostrar";
-            this.Mostrar.Size = new System.Drawing.Size(375, 150);
+            this.Mostrar.Size = new System.Drawing.Size(417, 150);
             this.Mostrar.TabIndex = 8;
             this.Mostrar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // refrescar
             // 
-            this.refrescar.Location = new System.Drawing.Point(427, 257);
+            this.refrescar.Location = new System.Drawing.Point(456, 239);
             this.refrescar.Name = "refrescar";
             this.refrescar.Size = new System.Drawing.Size(75, 23);
             this.refrescar.TabIndex = 9;
@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 450);
+            this.ClientSize = new System.Drawing.Size(742, 450);
             this.Controls.Add(this.correotext);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.refrescar);
