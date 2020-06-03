@@ -1,0 +1,6 @@
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\bin\Debug\Entity.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\bin\Debug\Entity.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\obj\Debug\Entity.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Entity\obj\Debug\Entity.pdb

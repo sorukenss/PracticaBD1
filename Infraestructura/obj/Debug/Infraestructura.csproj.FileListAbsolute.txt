@@ -1,0 +1,9 @@
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\Infraestructura.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\Infraestructura.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\Entity.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\Entity.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.csprojAssemblyReference.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.csproj.CoreCompileInputs.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.csproj.CopyComplete
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.pdb

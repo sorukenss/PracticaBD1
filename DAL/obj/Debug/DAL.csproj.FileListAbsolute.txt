@@ -1,0 +1,9 @@
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\bin\Debug\DAL.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\bin\Debug\DAL.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\bin\Debug\Entity.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\bin\Debug\Entity.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\obj\Debug\DAL.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\DAL\obj\Debug\DAL.pdb

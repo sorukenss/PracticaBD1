@@ -1,0 +1,13 @@
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\BLL.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\BLL.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\DAL.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\Entity.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\DAL.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\Entity.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\obj\Debug\BLL.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\obj\Debug\BLL.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\Infraestructura.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\BLL\bin\Debug\Infraestructura.pdb
