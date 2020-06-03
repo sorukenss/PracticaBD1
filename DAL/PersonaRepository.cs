@@ -30,6 +30,7 @@ namespace DAL
             Command.Parameters.Add("Nombre", SqlDbType.VarChar).Value = persona.Nombre;
             Command.Parameters.Add("Identificacion", SqlDbType.VarChar).Value = persona.Identificacion;
             Command.Parameters.Add("Sexo", SqlDbType.VarChar).Value = persona.Sexo;
+            Command.Parameters.Add("Correo", SqlDbType.VarChar).Value = persona.Email;
             Command.ExecuteNonQuery();
         }
 
@@ -58,6 +59,7 @@ namespace DAL
             persona.Nombre = (string)reader["Nombre"];
             persona.Identificacion = (string)reader["Identificacion"];
             persona.Sexo = (string)reader["Sexo"];
+            persona.Email = (string)reader["Correo"];
             return persona;
         }
 

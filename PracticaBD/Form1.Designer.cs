@@ -104,9 +104,9 @@
             // Mostrar
             // 
             this.Mostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Mostrar.Location = new System.Drawing.Point(313, 69);
+            this.Mostrar.Location = new System.Drawing.Point(294, 69);
             this.Mostrar.Name = "Mostrar";
-            this.Mostrar.Size = new System.Drawing.Size(313, 150);
+            this.Mostrar.Size = new System.Drawing.Size(375, 150);
             this.Mostrar.TabIndex = 8;
             this.Mostrar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
