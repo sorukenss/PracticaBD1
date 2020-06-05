@@ -30,25 +30,27 @@ namespace Infraestructura
             Smtp.Credentials = new NetworkCredential("isaacpimienta358@gmail.com","comot3viyo3.");
         }
 
-        private void ConfigurarEmail(Persona persona)
+        private void ConfigurarEmail(string ruta,string correo)
         {
             Email = new MailMessage();
-            Email.To.Add(persona.Email);
+            Email.To.Add(correo);
             Email.From = new MailAddress("isaacpimienta358@gmail.com");
-            Email.Subject = $"registro de usuario {persona.Nombre}";
+            Email.Subject = $"Lista de Usuario";
             Email.Body = $"<b> Registro satisfactoriamente</b>";
+            Attachment Pdf = new Attachment(ruta);
+            Email.Attachments.Add(Pdf);
             Email.IsBodyHtml = true;
             Email.Priority = MailPriority.Normal;
 
             
         }
 
-        public string EnviarEmail(Persona persona)
+        public string EnviarEmail(string ruta,string correo)
         {
             try
             {
                 ConfigurarSmtp();
-                ConfigurarEmail(persona);
+                ConfigurarEmail(ruta,correo);
                 Smtp.Send(Email);
                 return $"Se envio correctamente el correo";
 

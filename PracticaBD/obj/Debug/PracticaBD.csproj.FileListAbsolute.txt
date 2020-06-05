@@ -17,3 +17,8 @@ D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\bin\Debug\DAL.pdb
 D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\obj\Debug\PracticaBD.csproj.CopyComplete
 D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\bin\Debug\Infraestructura.dll
 D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\bin\Debug\Infraestructura.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\obj\Debug\PracticaBD.ConsultarPorId.resources
+D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\obj\Debug\PracticaBD.Eliminarpersona.resources
+D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\bin\Debug\itextsharp.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\bin\Debug\itextsharp.xml
+D:\Programacion lll\PracticasEstudios\PracticaBD\PracticaBD\obj\Debug\PracticaBD.Principal.resources

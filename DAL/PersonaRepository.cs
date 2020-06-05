@@ -23,7 +23,7 @@ namespace DAL
 
         }
 
-        public void GuardarPersona( Persona persona)
+        public void GuardarPersona(Persona persona)
         {
             SqlCommand Command = new SqlCommand("GUARDARPERSONA", Connection);
             Command.CommandType = CommandType.StoredProcedure;
@@ -40,27 +40,87 @@ namespace DAL
             Personas.Clear();
             using (var comando = Connection.CreateCommand())
             {
-                comando.CommandText = "SELECT * FROM Personas";
-                Reader = comando.ExecuteReader();
+                comando.CommandText = "BUSCARPERSONAS";
+                comando.CommandType = CommandType.StoredProcedure;
 
-                while (Reader.Read())
+                DataTable datatable = new DataTable("Personas");
+                SqlDataAdapter datadapter = new SqlDataAdapter(comando);
+                datadapter.Fill(datatable);
+
+
+
+                foreach (DataRow _row in datatable.Rows)
                 {
                     Persona persona;
-                    persona = Map(Reader);
+                    persona = Map(_row);
                     Personas.Add(persona);
                 }
+
+
             }
             return Personas;
         }
 
-        private Persona Map(SqlDataReader reader)
+        private Persona Map(DataRow datarow)
         {
             Persona persona = new Persona();
-            persona.Nombre = (string)reader["Nombre"];
-            persona.Identificacion = (string)reader["Identificacion"];
-            persona.Sexo = (string)reader["Sexo"];
-            persona.Email = (string)reader["Correo"];
+            persona.Identificacion = (datarow[1]).ToString();
+            persona.Nombre = (datarow[0]).ToString();
+            persona.Sexo = (datarow[2]).ToString();
+            persona.Email = (datarow[3]).ToString();
+
             return persona;
+        }
+
+
+        public Persona ConsultarProIdentificacion(string id)
+        {
+
+            Persona persona = new Persona();
+            Personas.Clear();
+            using (var Comando = Connection.CreateCommand())
+            {
+                Comando.CommandText = "CONSULTARPERSONA";
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@Identificacion", SqlDbType.VarChar).Value = id;
+
+                DataTable datatable = new DataTable("Personas");
+                SqlDataAdapter datadapter = new SqlDataAdapter(Comando);
+                datadapter.Fill(datatable);
+
+
+
+                foreach (DataRow _row in datatable.Rows)
+                {
+                    persona = Map(_row);
+                }
+
+                return persona;
+
+            }
+
+        }
+
+
+        public void Eliminar(string id)
+        {
+            Persona persona = new Persona();
+            Personas.Clear();
+            using (var comando = Connection.CreateCommand())
+            {
+                comando.CommandText = "ELIMINARPERSONA";
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.Add("@Identificacion", SqlDbType.VarChar).Value = id;
+                DataTable datatable = new DataTable("Personas");
+                SqlDataAdapter datadapter = new SqlDataAdapter(comando);
+                datadapter.Fill(datatable);
+
+                foreach (DataRow _row in datatable.Rows)
+                {
+                    persona = Map(_row);
+                }
+            }
+            
         }
 
     }

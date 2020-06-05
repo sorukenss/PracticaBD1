@@ -39,6 +39,11 @@
             this.refrescar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.correotext = new System.Windows.Forms.TextBox();
+            this.LimpiarBoton = new System.Windows.Forms.Button();
+            this.AtrasPrincipal = new System.Windows.Forms.Button();
+            this.btGenerarPdf = new System.Windows.Forms.Button();
+            this.CorreoEnviartex = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Mostrar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +117,7 @@
             // 
             // refrescar
             // 
-            this.refrescar.Location = new System.Drawing.Point(456, 239);
+            this.refrescar.Location = new System.Drawing.Point(464, 241);
             this.refrescar.Name = "refrescar";
             this.refrescar.Size = new System.Drawing.Size(75, 23);
             this.refrescar.TabIndex = 9;
@@ -136,11 +141,63 @@
             this.correotext.Size = new System.Drawing.Size(100, 20);
             this.correotext.TabIndex = 11;
             // 
+            // LimpiarBoton
+            // 
+            this.LimpiarBoton.Location = new System.Drawing.Point(167, 366);
+            this.LimpiarBoton.Name = "LimpiarBoton";
+            this.LimpiarBoton.Size = new System.Drawing.Size(75, 23);
+            this.LimpiarBoton.TabIndex = 13;
+            this.LimpiarBoton.Text = "Limpiar";
+            this.LimpiarBoton.UseVisualStyleBackColor = true;
+            this.LimpiarBoton.Click += new System.EventHandler(this.LimpiarBoton_Click);
+            // 
+            // AtrasPrincipal
+            // 
+            this.AtrasPrincipal.Location = new System.Drawing.Point(636, 22);
+            this.AtrasPrincipal.Name = "AtrasPrincipal";
+            this.AtrasPrincipal.Size = new System.Drawing.Size(75, 23);
+            this.AtrasPrincipal.TabIndex = 14;
+            this.AtrasPrincipal.Text = "Atras";
+            this.AtrasPrincipal.UseVisualStyleBackColor = true;
+            this.AtrasPrincipal.Click += new System.EventHandler(this.AtrasPrincipal_Click);
+            // 
+            // btGenerarPdf
+            // 
+            this.btGenerarPdf.Location = new System.Drawing.Point(464, 366);
+            this.btGenerarPdf.Name = "btGenerarPdf";
+            this.btGenerarPdf.Size = new System.Drawing.Size(75, 23);
+            this.btGenerarPdf.TabIndex = 15;
+            this.btGenerarPdf.Text = "GenerarPdf";
+            this.btGenerarPdf.UseVisualStyleBackColor = true;
+            this.btGenerarPdf.Click += new System.EventHandler(this.btGenerarPdf_Click);
+            // 
+            // CorreoEnviartex
+            // 
+            this.CorreoEnviartex.Location = new System.Drawing.Point(509, 340);
+            this.CorreoEnviartex.Name = "CorreoEnviartex";
+            this.CorreoEnviartex.Size = new System.Drawing.Size(100, 20);
+            this.CorreoEnviartex.TabIndex = 16;
+            this.CorreoEnviartex.TextChanged += new System.EventHandler(this.CorreoEnviartex_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(421, 343);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Enviar a :";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.CorreoEnviartex);
+            this.Controls.Add(this.btGenerarPdf);
+            this.Controls.Add(this.AtrasPrincipal);
+            this.Controls.Add(this.LimpiarBoton);
             this.Controls.Add(this.correotext);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.refrescar);
@@ -173,6 +230,11 @@
         private System.Windows.Forms.Button refrescar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox correotext;
+        private System.Windows.Forms.Button LimpiarBoton;
+        private System.Windows.Forms.Button AtrasPrincipal;
+        private System.Windows.Forms.Button btGenerarPdf;
+        private System.Windows.Forms.TextBox CorreoEnviartex;
+        private System.Windows.Forms.Label label2;
     }
 }
 

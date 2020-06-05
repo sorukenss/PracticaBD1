@@ -7,3 +7,5 @@ D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infra
 D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.csproj.CopyComplete
 D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.dll
 D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\obj\Debug\Infraestructura.pdb
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\itextsharp.dll
+D:\Programacion lll\PracticasEstudios\PracticaBD\Infraestructura\bin\Debug\itextsharp.xml
