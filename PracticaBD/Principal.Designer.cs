@@ -28,62 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btRegistrar = new System.Windows.Forms.Button();
-            this.btbuscar = new System.Windows.Forms.Button();
-            this.btEliminar = new System.Windows.Forms.Button();
-            this.Salir = new System.Windows.Forms.Button();
             this.btModificar = new System.Windows.Forms.Button();
+            this.Salir = new System.Windows.Forms.Button();
+            this.btEliminar = new System.Windows.Forms.Button();
+            this.btbuscar = new System.Windows.Forms.Button();
+            this.btRegistrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btRegistrar
-            // 
-            this.btRegistrar.Location = new System.Drawing.Point(332, 44);
-            this.btRegistrar.Name = "btRegistrar";
-            this.btRegistrar.Size = new System.Drawing.Size(75, 23);
-            this.btRegistrar.TabIndex = 0;
-            this.btRegistrar.Text = "Registrar";
-            this.btRegistrar.UseCompatibleTextRendering = true;
-            this.btRegistrar.UseVisualStyleBackColor = true;
-            this.btRegistrar.Click += new System.EventHandler(this.btRegistrar_Click);
-            // 
-            // btbuscar
-            // 
-            this.btbuscar.Location = new System.Drawing.Point(332, 102);
-            this.btbuscar.Name = "btbuscar";
-            this.btbuscar.Size = new System.Drawing.Size(75, 23);
-            this.btbuscar.TabIndex = 1;
-            this.btbuscar.Text = "Buscar";
-            this.btbuscar.UseVisualStyleBackColor = true;
-            this.btbuscar.Click += new System.EventHandler(this.btbuscar_Click);
-            // 
-            // btEliminar
-            // 
-            this.btEliminar.Location = new System.Drawing.Point(332, 160);
-            this.btEliminar.Name = "btEliminar";
-            this.btEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btEliminar.TabIndex = 2;
-            this.btEliminar.Text = "Eliminar";
-            this.btEliminar.UseVisualStyleBackColor = true;
-            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
-            // 
-            // Salir
-            // 
-            this.Salir.Location = new System.Drawing.Point(332, 276);
-            this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(75, 23);
-            this.Salir.TabIndex = 4;
-            this.Salir.Text = "Salir";
-            this.Salir.UseVisualStyleBackColor = true;
-            this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
             // btModificar
             // 
-            this.btModificar.Location = new System.Drawing.Point(332, 218);
+            this.btModificar.Image = global::PracticaBD.Properties.Resources.application_edit;
+            this.btModificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btModificar.Location = new System.Drawing.Point(332, 216);
             this.btModificar.Name = "btModificar";
-            this.btModificar.Size = new System.Drawing.Size(75, 23);
+            this.btModificar.Size = new System.Drawing.Size(75, 39);
             this.btModificar.TabIndex = 5;
             this.btModificar.Text = "Modificar";
+            this.btModificar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btModificar.UseVisualStyleBackColor = true;
+            // 
+            // Salir
+            // 
+            this.Salir.Image = global::PracticaBD.Properties.Resources.disconnect;
+            this.Salir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Salir.Location = new System.Drawing.Point(332, 276);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(75, 38);
+            this.Salir.TabIndex = 4;
+            this.Salir.Text = "Salir";
+            this.Salir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Salir.UseVisualStyleBackColor = true;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
+            // btEliminar
+            // 
+            this.btEliminar.Image = global::PracticaBD.Properties.Resources.application_delete;
+            this.btEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btEliminar.Location = new System.Drawing.Point(332, 158);
+            this.btEliminar.Name = "btEliminar";
+            this.btEliminar.Size = new System.Drawing.Size(75, 37);
+            this.btEliminar.TabIndex = 2;
+            this.btEliminar.Text = "Eliminar";
+            this.btEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btEliminar.UseVisualStyleBackColor = true;
+            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
+            // 
+            // btbuscar
+            // 
+            this.btbuscar.Image = global::PracticaBD.Properties.Resources.application_form_magnify;
+            this.btbuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btbuscar.Location = new System.Drawing.Point(332, 101);
+            this.btbuscar.Name = "btbuscar";
+            this.btbuscar.Size = new System.Drawing.Size(75, 36);
+            this.btbuscar.TabIndex = 1;
+            this.btbuscar.Text = "Buscar";
+            this.btbuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btbuscar.UseVisualStyleBackColor = true;
+            this.btbuscar.Click += new System.EventHandler(this.btbuscar_Click);
+            // 
+            // btRegistrar
+            // 
+            this.btRegistrar.Image = global::PracticaBD.Properties.Resources.add;
+            this.btRegistrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btRegistrar.Location = new System.Drawing.Point(332, 44);
+            this.btRegistrar.Name = "btRegistrar";
+            this.btRegistrar.Size = new System.Drawing.Size(75, 36);
+            this.btRegistrar.TabIndex = 0;
+            this.btRegistrar.Text = "Registrar";
+            this.btRegistrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btRegistrar.UseCompatibleTextRendering = true;
+            this.btRegistrar.UseVisualStyleBackColor = true;
+            this.btRegistrar.Click += new System.EventHandler(this.btRegistrar_Click);
             // 
             // Principal
             // 

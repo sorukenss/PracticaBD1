@@ -35,16 +35,16 @@
             this.Nombre = new System.Windows.Forms.Label();
             this.Identificacion = new System.Windows.Forms.Label();
             this.sexo = new System.Windows.Forms.Label();
-            this.Guardar = new System.Windows.Forms.Button();
             this.Mostrar = new System.Windows.Forms.DataGridView();
-            this.refrescar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.correotext = new System.Windows.Forms.TextBox();
-            this.LimpiarBoton = new System.Windows.Forms.Button();
-            this.AtrasPrincipal = new System.Windows.Forms.Button();
-            this.btGenerarPdf = new System.Windows.Forms.Button();
             this.CorreoEnviartex = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btGenerarPdf = new System.Windows.Forms.Button();
+            this.AtrasPrincipal = new System.Windows.Forms.Button();
+            this.LimpiarBoton = new System.Windows.Forms.Button();
+            this.Guardar = new System.Windows.Forms.Button();
+            this.refrescar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Mostrar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,18 +97,6 @@
             this.sexo.TabIndex = 5;
             this.sexo.Text = "Sexo";
             // 
-            // Guardar
-            // 
-            this.Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardar.Location = new System.Drawing.Point(177, 292);
-            this.Guardar.Name = "Guardar";
-            this.Guardar.Size = new System.Drawing.Size(90, 40);
-            this.Guardar.TabIndex = 6;
-            this.Guardar.Text = "Guardar";
-            this.Guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Guardar.UseVisualStyleBackColor = true;
-            this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
-            // 
             // Mostrar
             // 
             this.Mostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -117,20 +105,6 @@
             this.Mostrar.Size = new System.Drawing.Size(417, 150);
             this.Mostrar.TabIndex = 8;
             this.Mostrar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // refrescar
-            // 
-            this.refrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.refrescar.Image = ((System.Drawing.Image)(resources.GetObject("refrescar.Image")));
-            this.refrescar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.refrescar.Location = new System.Drawing.Point(464, 241);
-            this.refrescar.Name = "refrescar";
-            this.refrescar.Size = new System.Drawing.Size(75, 42);
-            this.refrescar.TabIndex = 9;
-            this.refrescar.Text = "Refrescar";
-            this.refrescar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.refrescar.UseVisualStyleBackColor = true;
-            this.refrescar.Click += new System.EventHandler(this.refrescar_Click);
             // 
             // label1
             // 
@@ -148,39 +122,6 @@
             this.correotext.Size = new System.Drawing.Size(100, 20);
             this.correotext.TabIndex = 11;
             // 
-            // LimpiarBoton
-            // 
-            this.LimpiarBoton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LimpiarBoton.Location = new System.Drawing.Point(167, 366);
-            this.LimpiarBoton.Name = "LimpiarBoton";
-            this.LimpiarBoton.Size = new System.Drawing.Size(90, 46);
-            this.LimpiarBoton.TabIndex = 13;
-            this.LimpiarBoton.Text = "Limpiar";
-            this.LimpiarBoton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.LimpiarBoton.UseVisualStyleBackColor = true;
-            this.LimpiarBoton.Click += new System.EventHandler(this.LimpiarBoton_Click);
-            // 
-            // AtrasPrincipal
-            // 
-            this.AtrasPrincipal.Location = new System.Drawing.Point(636, 22);
-            this.AtrasPrincipal.Name = "AtrasPrincipal";
-            this.AtrasPrincipal.Size = new System.Drawing.Size(75, 23);
-            this.AtrasPrincipal.TabIndex = 14;
-            this.AtrasPrincipal.Text = "Atras";
-            this.AtrasPrincipal.UseVisualStyleBackColor = true;
-            this.AtrasPrincipal.Click += new System.EventHandler(this.AtrasPrincipal_Click);
-            // 
-            // btGenerarPdf
-            // 
-            this.btGenerarPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btGenerarPdf.Location = new System.Drawing.Point(448, 366);
-            this.btGenerarPdf.Name = "btGenerarPdf";
-            this.btGenerarPdf.Size = new System.Drawing.Size(91, 46);
-            this.btGenerarPdf.TabIndex = 15;
-            this.btGenerarPdf.Text = "GenerarPdf";
-            this.btGenerarPdf.UseVisualStyleBackColor = true;
-            this.btGenerarPdf.Click += new System.EventHandler(this.btGenerarPdf_Click);
-            // 
             // CorreoEnviartex
             // 
             this.CorreoEnviartex.Location = new System.Drawing.Point(509, 340);
@@ -197,6 +138,72 @@
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 17;
             this.label2.Text = "Enviar a :";
+            // 
+            // btGenerarPdf
+            // 
+            this.btGenerarPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btGenerarPdf.Image = global::PracticaBD.Properties.Resources.application_view_list;
+            this.btGenerarPdf.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btGenerarPdf.Location = new System.Drawing.Point(448, 366);
+            this.btGenerarPdf.Name = "btGenerarPdf";
+            this.btGenerarPdf.Size = new System.Drawing.Size(91, 46);
+            this.btGenerarPdf.TabIndex = 15;
+            this.btGenerarPdf.Text = "GenerarPdf";
+            this.btGenerarPdf.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btGenerarPdf.UseVisualStyleBackColor = true;
+            this.btGenerarPdf.Click += new System.EventHandler(this.btGenerarPdf_Click);
+            // 
+            // AtrasPrincipal
+            // 
+            this.AtrasPrincipal.Image = global::PracticaBD.Properties.Resources.application_side_contract;
+            this.AtrasPrincipal.Location = new System.Drawing.Point(636, 22);
+            this.AtrasPrincipal.Name = "AtrasPrincipal";
+            this.AtrasPrincipal.Size = new System.Drawing.Size(75, 41);
+            this.AtrasPrincipal.TabIndex = 14;
+            this.AtrasPrincipal.UseVisualStyleBackColor = true;
+            this.AtrasPrincipal.Click += new System.EventHandler(this.AtrasPrincipal_Click);
+            // 
+            // LimpiarBoton
+            // 
+            this.LimpiarBoton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LimpiarBoton.Image = global::PracticaBD.Properties.Resources.application_lightning;
+            this.LimpiarBoton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.LimpiarBoton.Location = new System.Drawing.Point(167, 366);
+            this.LimpiarBoton.Name = "LimpiarBoton";
+            this.LimpiarBoton.Size = new System.Drawing.Size(90, 46);
+            this.LimpiarBoton.TabIndex = 13;
+            this.LimpiarBoton.Text = "Limpiar";
+            this.LimpiarBoton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.LimpiarBoton.UseVisualStyleBackColor = true;
+            this.LimpiarBoton.Click += new System.EventHandler(this.LimpiarBoton_Click);
+            // 
+            // Guardar
+            // 
+            this.Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Guardar.Image = global::PracticaBD.Properties.Resources.accept;
+            this.Guardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Guardar.Location = new System.Drawing.Point(177, 292);
+            this.Guardar.Name = "Guardar";
+            this.Guardar.Size = new System.Drawing.Size(90, 40);
+            this.Guardar.TabIndex = 6;
+            this.Guardar.Text = "Guardar";
+            this.Guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Guardar.UseVisualStyleBackColor = true;
+            this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
+            // 
+            // refrescar
+            // 
+            this.refrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refrescar.Image = ((System.Drawing.Image)(resources.GetObject("refrescar.Image")));
+            this.refrescar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.refrescar.Location = new System.Drawing.Point(464, 241);
+            this.refrescar.Name = "refrescar";
+            this.refrescar.Size = new System.Drawing.Size(75, 42);
+            this.refrescar.TabIndex = 9;
+            this.refrescar.Text = "Refrescar";
+            this.refrescar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refrescar.UseVisualStyleBackColor = true;
+            this.refrescar.Click += new System.EventHandler(this.refrescar_Click);
             // 
             // Form1
             // 

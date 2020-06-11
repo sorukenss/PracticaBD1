@@ -28,21 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btEliminarAction = new System.Windows.Forms.Button();
             this.txEliminar = new System.Windows.Forms.TextBox();
             this.Identificacion = new System.Windows.Forms.Label();
             this.AtrasEliminar = new System.Windows.Forms.Button();
+            this.btEliminarAction = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btEliminarAction
-            // 
-            this.btEliminarAction.Location = new System.Drawing.Point(326, 250);
-            this.btEliminarAction.Name = "btEliminarAction";
-            this.btEliminarAction.Size = new System.Drawing.Size(75, 23);
-            this.btEliminarAction.TabIndex = 0;
-            this.btEliminarAction.Text = "Eliminar";
-            this.btEliminarAction.UseVisualStyleBackColor = true;
-            this.btEliminarAction.Click += new System.EventHandler(this.btEliminarAction_Click);
             // 
             // txEliminar
             // 
@@ -63,13 +53,26 @@
             // 
             // AtrasEliminar
             // 
+            this.AtrasEliminar.Image = global::PracticaBD.Properties.Resources.application_side_contract;
             this.AtrasEliminar.Location = new System.Drawing.Point(691, 28);
             this.AtrasEliminar.Name = "AtrasEliminar";
-            this.AtrasEliminar.Size = new System.Drawing.Size(75, 23);
+            this.AtrasEliminar.Size = new System.Drawing.Size(75, 41);
             this.AtrasEliminar.TabIndex = 3;
-            this.AtrasEliminar.Text = "Atras";
             this.AtrasEliminar.UseVisualStyleBackColor = true;
             this.AtrasEliminar.Click += new System.EventHandler(this.AtrasEliminar_Click);
+            // 
+            // btEliminarAction
+            // 
+            this.btEliminarAction.Image = global::PracticaBD.Properties.Resources.delete;
+            this.btEliminarAction.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btEliminarAction.Location = new System.Drawing.Point(326, 250);
+            this.btEliminarAction.Name = "btEliminarAction";
+            this.btEliminarAction.Size = new System.Drawing.Size(75, 49);
+            this.btEliminarAction.TabIndex = 0;
+            this.btEliminarAction.Text = "Eliminar";
+            this.btEliminarAction.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btEliminarAction.UseVisualStyleBackColor = true;
+            this.btEliminarAction.Click += new System.EventHandler(this.btEliminarAction_Click);
             // 
             // Eliminarpersona
             // 

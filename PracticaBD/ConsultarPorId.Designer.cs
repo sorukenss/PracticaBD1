@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.dtMostrar = new System.Windows.Forms.DataGridView();
-            this.Identitext = new System.Windows.Forms.Label();
-            this.idregistradatext = new System.Windows.Forms.TextBox();
-            this.Buscartext = new System.Windows.Forms.Button();
-            this.VolverBoton = new System.Windows.Forms.Button();
             this.CIdentificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CSexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Identitext = new System.Windows.Forms.Label();
+            this.idregistradatext = new System.Windows.Forms.TextBox();
+            this.Buscartext = new System.Windows.Forms.Button();
+            this.VolverBoton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtMostrar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,43 +53,6 @@
             this.dtMostrar.Size = new System.Drawing.Size(452, 169);
             this.dtMostrar.TabIndex = 0;
             this.dtMostrar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Identitext
-            // 
-            this.Identitext.AutoSize = true;
-            this.Identitext.Location = new System.Drawing.Point(173, 255);
-            this.Identitext.Name = "Identitext";
-            this.Identitext.Size = new System.Drawing.Size(70, 13);
-            this.Identitext.TabIndex = 1;
-            this.Identitext.Text = "Identificacion";
-            // 
-            // idregistradatext
-            // 
-            this.idregistradatext.Location = new System.Drawing.Point(273, 252);
-            this.idregistradatext.Name = "idregistradatext";
-            this.idregistradatext.Size = new System.Drawing.Size(100, 20);
-            this.idregistradatext.TabIndex = 2;
-            this.idregistradatext.TextChanged += new System.EventHandler(this.idregistradatext_TextChanged);
-            // 
-            // Buscartext
-            // 
-            this.Buscartext.Location = new System.Drawing.Point(284, 306);
-            this.Buscartext.Name = "Buscartext";
-            this.Buscartext.Size = new System.Drawing.Size(75, 23);
-            this.Buscartext.TabIndex = 3;
-            this.Buscartext.Text = "Buscar";
-            this.Buscartext.UseVisualStyleBackColor = true;
-            this.Buscartext.Click += new System.EventHandler(this.Buscartext_Click);
-            // 
-            // VolverBoton
-            // 
-            this.VolverBoton.Location = new System.Drawing.Point(696, 30);
-            this.VolverBoton.Name = "VolverBoton";
-            this.VolverBoton.Size = new System.Drawing.Size(75, 23);
-            this.VolverBoton.TabIndex = 4;
-            this.VolverBoton.Text = "Volver";
-            this.VolverBoton.UseVisualStyleBackColor = true;
-            this.VolverBoton.Click += new System.EventHandler(this.VolverBoton_Click);
             // 
             // CIdentificacion
             // 
@@ -110,6 +73,48 @@
             // 
             this.CCorreo.HeaderText = "Correo";
             this.CCorreo.Name = "CCorreo";
+            // 
+            // Identitext
+            // 
+            this.Identitext.AutoSize = true;
+            this.Identitext.Location = new System.Drawing.Point(173, 255);
+            this.Identitext.Name = "Identitext";
+            this.Identitext.Size = new System.Drawing.Size(70, 13);
+            this.Identitext.TabIndex = 1;
+            this.Identitext.Text = "Identificacion";
+            // 
+            // idregistradatext
+            // 
+            this.idregistradatext.Location = new System.Drawing.Point(273, 252);
+            this.idregistradatext.Name = "idregistradatext";
+            this.idregistradatext.Size = new System.Drawing.Size(100, 20);
+            this.idregistradatext.TabIndex = 2;
+            this.idregistradatext.TextChanged += new System.EventHandler(this.idregistradatext_TextChanged);
+            // 
+            // Buscartext
+            // 
+            this.Buscartext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Buscartext.Image = global::PracticaBD.Properties.Resources.application_form_magnify;
+            this.Buscartext.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Buscartext.Location = new System.Drawing.Point(284, 306);
+            this.Buscartext.Name = "Buscartext";
+            this.Buscartext.Size = new System.Drawing.Size(75, 37);
+            this.Buscartext.TabIndex = 3;
+            this.Buscartext.Text = "Buscar";
+            this.Buscartext.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Buscartext.UseVisualStyleBackColor = true;
+            this.Buscartext.Click += new System.EventHandler(this.Buscartext_Click);
+            // 
+            // VolverBoton
+            // 
+            this.VolverBoton.Image = global::PracticaBD.Properties.Resources.application_side_contract;
+            this.VolverBoton.Location = new System.Drawing.Point(696, 30);
+            this.VolverBoton.Name = "VolverBoton";
+            this.VolverBoton.Size = new System.Drawing.Size(75, 34);
+            this.VolverBoton.TabIndex = 4;
+            this.VolverBoton.TabStop = false;
+            this.VolverBoton.UseVisualStyleBackColor = true;
+            this.VolverBoton.Click += new System.EventHandler(this.VolverBoton_Click);
             // 
             // ConsultarPorId
             // 
