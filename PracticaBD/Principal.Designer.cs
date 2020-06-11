@@ -32,11 +32,12 @@
             this.btbuscar = new System.Windows.Forms.Button();
             this.btEliminar = new System.Windows.Forms.Button();
             this.Salir = new System.Windows.Forms.Button();
+            this.btModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btRegistrar
             // 
-            this.btRegistrar.Location = new System.Drawing.Point(308, 51);
+            this.btRegistrar.Location = new System.Drawing.Point(332, 44);
             this.btRegistrar.Name = "btRegistrar";
             this.btRegistrar.Size = new System.Drawing.Size(75, 23);
             this.btRegistrar.TabIndex = 0;
@@ -47,7 +48,7 @@
             // 
             // btbuscar
             // 
-            this.btbuscar.Location = new System.Drawing.Point(308, 111);
+            this.btbuscar.Location = new System.Drawing.Point(332, 102);
             this.btbuscar.Name = "btbuscar";
             this.btbuscar.Size = new System.Drawing.Size(75, 23);
             this.btbuscar.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // btEliminar
             // 
-            this.btEliminar.Location = new System.Drawing.Point(308, 185);
+            this.btEliminar.Location = new System.Drawing.Point(332, 160);
             this.btEliminar.Name = "btEliminar";
             this.btEliminar.Size = new System.Drawing.Size(75, 23);
             this.btEliminar.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // Salir
             // 
-            this.Salir.Location = new System.Drawing.Point(308, 261);
+            this.Salir.Location = new System.Drawing.Point(332, 276);
             this.Salir.Name = "Salir";
             this.Salir.Size = new System.Drawing.Size(75, 23);
             this.Salir.TabIndex = 4;
@@ -75,11 +76,21 @@
             this.Salir.UseVisualStyleBackColor = true;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
+            // btModificar
+            // 
+            this.btModificar.Location = new System.Drawing.Point(332, 218);
+            this.btModificar.Name = "btModificar";
+            this.btModificar.Size = new System.Drawing.Size(75, 23);
+            this.btModificar.TabIndex = 5;
+            this.btModificar.Text = "Modificar";
+            this.btModificar.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btModificar);
             this.Controls.Add(this.Salir);
             this.Controls.Add(this.btEliminar);
             this.Controls.Add(this.btbuscar);
@@ -96,5 +107,6 @@
         private System.Windows.Forms.Button btbuscar;
         private System.Windows.Forms.Button btEliminar;
         private System.Windows.Forms.Button Salir;
+        private System.Windows.Forms.Button btModificar;
     }
 }

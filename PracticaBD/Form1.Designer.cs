@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Nombretext = new System.Windows.Forms.TextBox();
             this.Idtext = new System.Windows.Forms.TextBox();
             this.Sexotext = new System.Windows.Forms.TextBox();
@@ -98,11 +99,13 @@
             // 
             // Guardar
             // 
-            this.Guardar.Location = new System.Drawing.Point(177, 302);
+            this.Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Guardar.Location = new System.Drawing.Point(177, 292);
             this.Guardar.Name = "Guardar";
-            this.Guardar.Size = new System.Drawing.Size(65, 23);
+            this.Guardar.Size = new System.Drawing.Size(90, 40);
             this.Guardar.TabIndex = 6;
             this.Guardar.Text = "Guardar";
+            this.Guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Guardar.UseVisualStyleBackColor = true;
             this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
             // 
@@ -117,11 +120,15 @@
             // 
             // refrescar
             // 
+            this.refrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refrescar.Image = ((System.Drawing.Image)(resources.GetObject("refrescar.Image")));
+            this.refrescar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.refrescar.Location = new System.Drawing.Point(464, 241);
             this.refrescar.Name = "refrescar";
-            this.refrescar.Size = new System.Drawing.Size(75, 23);
+            this.refrescar.Size = new System.Drawing.Size(75, 42);
             this.refrescar.TabIndex = 9;
             this.refrescar.Text = "Refrescar";
+            this.refrescar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.refrescar.UseVisualStyleBackColor = true;
             this.refrescar.Click += new System.EventHandler(this.refrescar_Click);
             // 
@@ -143,11 +150,13 @@
             // 
             // LimpiarBoton
             // 
+            this.LimpiarBoton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LimpiarBoton.Location = new System.Drawing.Point(167, 366);
             this.LimpiarBoton.Name = "LimpiarBoton";
-            this.LimpiarBoton.Size = new System.Drawing.Size(75, 23);
+            this.LimpiarBoton.Size = new System.Drawing.Size(90, 46);
             this.LimpiarBoton.TabIndex = 13;
             this.LimpiarBoton.Text = "Limpiar";
+            this.LimpiarBoton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.LimpiarBoton.UseVisualStyleBackColor = true;
             this.LimpiarBoton.Click += new System.EventHandler(this.LimpiarBoton_Click);
             // 
@@ -163,9 +172,10 @@
             // 
             // btGenerarPdf
             // 
-            this.btGenerarPdf.Location = new System.Drawing.Point(464, 366);
+            this.btGenerarPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btGenerarPdf.Location = new System.Drawing.Point(448, 366);
             this.btGenerarPdf.Name = "btGenerarPdf";
-            this.btGenerarPdf.Size = new System.Drawing.Size(75, 23);
+            this.btGenerarPdf.Size = new System.Drawing.Size(91, 46);
             this.btGenerarPdf.TabIndex = 15;
             this.btGenerarPdf.Text = "GenerarPdf";
             this.btGenerarPdf.UseVisualStyleBackColor = true;
@@ -200,7 +210,6 @@
             this.Controls.Add(this.LimpiarBoton);
             this.Controls.Add(this.correotext);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.refrescar);
             this.Controls.Add(this.Mostrar);
             this.Controls.Add(this.Guardar);
             this.Controls.Add(this.sexo);
@@ -209,6 +218,7 @@
             this.Controls.Add(this.Sexotext);
             this.Controls.Add(this.Idtext);
             this.Controls.Add(this.Nombretext);
+            this.Controls.Add(this.refrescar);
             this.Name = "Form1";
             this.Text = "ConectarBD";
             ((System.ComponentModel.ISupportInitialize)(this.Mostrar)).EndInit();
